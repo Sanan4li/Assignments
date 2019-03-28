@@ -1,0 +1,57 @@
+
+/*====== services ========*/
+
+#services{
+    width: 1200px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.service{
+    width: 280px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+}
+#img{
+   margin-left: 10px;
+   
+}
+#wordpress{
+    color: black;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#wordpress h2{
+    color: #fff;
+    text-align: center;
+}
+#wordpress p{
+    font-size: 20px;
+    color: white;
+}
+.learn{
+    padding: 10px;
+    background: #33C1CF;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 70px;
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family:serif;
+}
+.learn:hover{
+    background: #eee;
+}
+
+
+
+/*===== services styling end ========= */
+

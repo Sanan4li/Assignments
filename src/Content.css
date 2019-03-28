@@ -1,0 +1,175 @@
+.clear{
+    clear: both;
+}
+#content{
+   
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+#content h1{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+   
+}
+#content p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family:cursive;
+    margin-top: 10px;
+}
+#learn{
+    padding: 20px;
+    background: #ddd;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 220px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:serif;
+}
+#learn:hover{
+    background: #eee;
+}
+/*====== content styling end ====== */
+
+/*======= blog reviews ======= */
+
+#blog{
+    
+    background-image: url("./images/hmk1.jpg");
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+    float: left;
+}
+#blog #sub{
+    padding: 20px;
+    background:rgba(0,0,0,0.5);;
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#blog form , h2{
+    color: white;
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+#blog input[type="text"] , input[type="email"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #ddd;
+}
+#blog input[type="email"]:hover{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+}
+#blog input[type="text"]:hover{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+}
+#blog input[type="text"]:focus{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+}
+#blog input[type="email"]:focus{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+}
+input[type="submit"]{
+    width: 300px;
+    border: 0;
+    height: 30px;
+    background: aqua;
+}
+input[type="submit"]:hover{
+    width: 300px;
+    border: 0;
+    height: 30px;
+    background: blue;
+    color: white;
+}
+#blog #post{
+    display: block;
+    background-image: url("./images/blogpost.JPG");
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+.section{
+    width: 32%;
+    height: 370px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10Px;
+}
+.section h3{
+    padding: 10px;
+    margin-left: 50px;
+    color: darkgray;
+}
+.section h3:hover{
+    
+    color: white;
+}
+.section h1{
+    color: aliceblue;
+    text-align: center;
+}
+.section p{
+    font-size: 22px;
+    padding: 4px;
+    margin-left: 70px;
+    color:darkgray;
+}
+.section p:hover{
+    
+    color: white;
+}
+.section img{
+    margin-left: 10px;
+    float: left;
+}
+
+.social{
+    opacity: 0.7;
+    
+    
+}
+.social:hover{
+    opacity: 1;
+    cursor: pointer;
+       
+}
+
+/*===== foooter menu ---- */

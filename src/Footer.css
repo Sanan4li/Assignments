@@ -1,0 +1,92 @@
+
+#footer{
+    background: blue;
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+.section{
+    background: blue;
+    width: 32%;
+    height: 370px;
+   
+    float: left;
+    margin-left: 10px;
+    margin-top: 10Px;
+}
+.section h3{
+    padding: 10px;
+    margin-left: 50px;
+    color: darkgray;
+}
+.section h3:hover{
+    
+    color: white;
+}
+.section h1{
+    color: aliceblue;
+    text-align: center;
+}
+.section p{
+    font-size: 22px;
+    padding: 4px;
+    margin-left: 70px;
+    color:darkgray;
+}
+.section p:hover{
+    
+    color: white;
+}
+.section img{
+    margin-left: 10px;
+    float: left;
+}
+
+.social{
+    opacity: 0.7;
+    margin-top: 6px;
+    
+    
+}
+.social:hover{
+    opacity: 1;
+    cursor: pointer;
+       
+}
+
+/*===== foooter menu ---- */
+
+
+#footerMenu ul{
+    
+}
+#footerMenu ul li{
+    
+    list-style-type: none;
+    display: block;
+}
+#footerMenu ul li a{
+  
+    text-decoration: none;
+
+    display: block;
+    color: darkgray;
+    font-size: 16px;
+    font-family:arial;
+    padding:10px;
+    width: 150px;
+ 
+    
+}
+#footerMenu ul li a:hover{
+    
+    color: white;
+ 
+    
+}
+
+#about{
+    text-align: left;
+    margin-left: 10;
+    padding: 10;
+}
